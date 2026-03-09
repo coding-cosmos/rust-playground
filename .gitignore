@@ -1,0 +1,49 @@
+# Rust build output
+/target/
+
+# Cargo backup files
+**/*.rs.bk
+
+# Cargo.lock
+# Keep this for applications; comment it out if you want to track it
+Cargo.lock
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# Linux
+*~
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# VSCode
+.vscode/
+
+# JetBrains IDEs (IntelliJ, CLion, RustRover)
+.idea/
+
+# Vim
+*.swp
+*.swo
+
+# Coverage
+coverage/
+
+# Benchmark outputs
+/criterion/
+
+# Flamegraph outputs
+/flamegraph/
