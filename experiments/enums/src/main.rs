@@ -1,6 +1,6 @@
-mod message;
-mod matches;
 mod control_flow;
+mod matches;
+mod message;
 // use message::Message;
 use matches::Coin;
 
@@ -45,9 +45,9 @@ fn main() {
     //     _ => count += 1
     // }
 
-    if let Coin::Quarter(state) = coin{
+    if let Coin::Quarter(state) = coin {
         println!("State quarter from {state:?}");
-    }else{
+    } else {
         count += 1;
     }
 }

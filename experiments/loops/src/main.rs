@@ -42,7 +42,7 @@ fn main() {
     //     println!("The value is {elm}");
     // }
 
-    for n in (1..4).rev(){
+    for n in (1..4).rev() {
         println!("The number is {n}");
     }
 
