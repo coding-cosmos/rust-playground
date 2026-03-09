@@ -1,0 +1,7 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "bulls_and_cows",
+    "datatype"
+]
